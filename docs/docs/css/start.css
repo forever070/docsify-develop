@@ -1,0 +1,301 @@
+.banner ul, .banner ol { padding: 0; margin:0;}
+.banner { position: relative; overflow: hidden; text-align: center;width: 100%;}
+.banner ul li { float: left; list-style: none; width: 100%;}
+.content{
+	width:100%;
+	min-width:1130px;
+	height:auto;
+}
+.guide-content{
+	margin:0 auto;
+	height:auto;
+	width:1200px;;
+	padding:50px 0;
+}
+.guide-content .title{
+	color:rgb(65,140,235);
+	font-size:30px;
+	text-align:center;
+	padding:10px 0;
+	font-weight:700;
+}
+.guide-content .desc{
+	color:rgb(51,51,51);
+	font-size:18px;
+	text-align:center;
+	padding:10px 0;
+}
+.guide-content .detail{
+	width:1150px;
+	position:relative;
+	margin:0 auto;
+	padding:20px 0;
+}
+.guide-content .detail .item{
+	position:relative;
+	display:inline-block;
+	width:298px;
+	height:335px;
+	border:solid 1px #eee;
+	border-radius:3px;
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;
+	text-align:center;
+	padding:10px 0;
+	vertical-align:top;
+}
+.guide-content .detail .guide-split{
+	display:inline-block;
+	height:335px;
+	width:115px;
+	vertical-align:top;
+}
+.guide-content .detail .guide-split i{
+	display:inline-block;
+	width:19px;
+	height:38px;
+	margin:167px 57px;
+	background:url("../img/guid-arrow.png");
+}
+.guide-content .detail .arc1{
+	display:block;
+	width:164px;
+	height:140px;
+	margin:0 auto;
+	background:url("../img/maptype.png");
+}
+.guide-content .detail .arc2{
+	display:block;
+	width:164px;
+	height:140px;
+	margin:0 auto;
+	background:url("../img/join.png");
+}
+.guide-content .detail .arc3{
+	display:block;
+	width:164px;
+	height:140px;
+	margin:0 auto;
+	background:url("../img/question.png");
+}
+.guide-content .detail .arc-title{
+	color:rgb(102,102,102);
+	font-size:18px;
+	padding:30px 0 20px 0;
+	text-align:center;
+	font-weight:600;
+}
+.guide-content .detail .arc-desc{
+	font-size:14px;
+	padding:0 50px;
+	color:rgb(102,102,102);
+}
+.service-content{
+	position:relative;
+	margin:0 auto;
+	height:auto;
+	width:1200px;
+	padding:0 0 50px 0;
+}
+
+.service-content .title{
+	color:rgb(65,140,235);
+	font-size:30px;
+	text-align:center;
+	padding:5px 0;
+	font-weight:700;
+}
+
+.service-content .desc{
+	color:rgb(51,51,51);
+	font-size:18px;
+	text-align:center;
+	padding:10px 0;
+}
+.service-content .row{
+	width:100%;
+	text-align:center;
+	height:auto;
+	padding:10px 0;
+}
+.service-content .item{
+	position:relative;
+	display:inline-block;
+	width:370px;
+	height:40px;
+	/*cursor:pointer;*/
+	border:solid 1px #eee;
+	border-radius:3px;
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;
+	padding:15px 0;
+	margin:0 5px;
+}
+
+.service-content .item:hover{
+	border-color:#B3D5F9;
+}
+.service-content .item .item-arrow{
+	display:inline-block;
+	width:20px;
+	height:20px;
+	vertical-align:middle;
+	background:url("../img/entry.png") no-repeat;
+}
+.service-content .item  .icon{
+	display:inline-block;
+	width:40px;
+	height:40px;
+	vertical-align:middle;
+}
+.service-content .item .icon-grid{
+	background:url("../img/icon-grid.png") no-repeat;
+	margin-left: -8px;
+    padding-right: 9px;
+}
+.service-content .item .icon-vector{
+	background:url("../img/icon-vector.png") no-repeat;
+	margin-left: -8px;
+    padding-right: 9px;
+}
+.service-content .item .icon-department{
+	background:url("../img/icon-department.png") no-repeat;
+}
+.service-content .item .icon-address{
+	background:url("../img/icon-address.png") no-repeat;
+	margin-left: -8px;
+    padding-right: 9px;
+}
+.service-content .item .icon-traffic{
+	background:url("../img/icon-traffic.png") no-repeat;
+}
+.service-content .item .icon-nav{
+	background:url("../img/icon-nav.png") no-repeat;
+}
+.service-content .item .icon-pathplaning{
+	background:url("../img/icon-pathplaning.png") no-repeat;
+	margin-left: -8px;
+    padding-right: 9px;
+}
+.service-content .item .icon-geocoding{
+	background:url("../img/icon-geocoding.png") no-repeat;
+	height: 26px;
+}
+.service-content .item .icon-active{
+	background:url("../img/icon-active.png") no-repeat;
+	height: 26px;
+}
+.service-content .item .icon-vectortile{
+	background:url("../img/icon-vectortile.png") no-repeat;
+	height: 26px;
+}
+.service-content .item .icon-search{
+	background:url("../img/icon-search.png") no-repeat;
+	height: 23px;
+    width: 35px;
+}
+.service-content .item .icon-resource{
+	background:url("../img/icon-resource.png") no-repeat;
+	height: 18px;
+}
+.service-content .item .item-content{
+	display:inline-block;
+	width:180px;
+	height:40px;
+	line-height:40px;
+	text-align:left;
+	color:rgb(102,102,102);
+	vertical-align:middle;
+}
+.help-content{
+	margin:0 auto;
+	width:1200px;
+	margin-bottom:50px;
+	overflow:auto;
+}
+
+.help-content .title{
+	color:rgb(65,140,235);
+	font-size:30px;
+	text-align:center;
+	padding:10px 0;
+	font-weight:700;
+}
+
+.help-content .desc{
+	color:rgb(51,51,51);
+	font-size:18px;
+	text-align:center;
+	padding:10px 0;
+}
+.help-content .row{
+	width:100%;
+	height:auto;
+	padding-top:20px;
+}
+.help-content .item{
+	position:relative;
+	display:inline-block;
+	width:350px;
+	vertical-align:top;
+}
+.help-content .item:nth-child(2),.help-content .item:nth-child(3){
+	margin-left:50px;
+}
+.help-content .item ul{
+	list-style:none;
+	padding:0;
+	margin:0;
+	width:100%;
+	text-align:center;
+	overflow:auto;
+}
+.help-content .item .t-content{
+display:inline-block;
+	width:100%;
+	text-align:center;
+	border:solid 1px #eee;
+}
+.help-content .item .c-title{
+	display:inline-block;
+	width:350px;
+	height:180px;
+}
+.help-content .item .app-guide{
+	background:url("../img/app-guide.png") no-repeat;
+}
+.help-content .item .development-guide{
+	background:url("../img/development-guide.png") no-repeat;
+}
+.help-content .item .api-guide{
+	background:url("../img/api-guide.png") no-repeat;
+}
+.help-content .item ul li{
+	float:left;
+	color:rgb(102,102,102);
+	font-size:18px;
+	width:100%;
+	height:20px;
+	padding:20px 0;
+	cursor:pointer;
+}
+.help-content .item ul li:hover{
+	color:rgb(65,140,235);
+}
+
+
+.help-content .item ul li a{
+	text-decoration:none;
+	color: rgb(102,102,102);
+}
+
+.help-content .item ul li a:hover{
+	color:rgb(65,140,235);
+}
+
+.content .footer {
+	clear:both;
+	width:100%;
+	height:100px;
+	background-color:rgb(41,53,78);
+}

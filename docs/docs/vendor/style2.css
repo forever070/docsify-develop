@@ -1,0 +1,57 @@
+ .markdown-section{
+      padding:0px;
+      width: 100%;
+      height: 100%;
+      max-width:3000px;
+    }
+    .content{
+      padding-top :0px;
+      left: 0px;
+    }
+    .sidebar ul li a {overflow: inherit;}
+
+    .hj-wrap{
+      clear:both;
+      border:0px;
+    }
+    .hj-transverse-split-div{
+      float: left;
+      height: 100%;
+      padding:0px;
+      position:relative;
+      border:0px;
+    }
+    .hj-wrap .hj-transverse-split-label{
+      float:left;
+      width: 8px;
+      height: 100%;
+      display:block;
+      cursor: e-resize;
+      background-color:#63BFFF;
+      position:relative;
+    }
+
+    .hj-transverse-split-label-bg{
+      float:left;
+      width: 0.5%;
+      height: 100%;
+      display:block;
+      cursor: e-resize;
+      position:relative;
+    }
+    /*table tr td{*/
+    /*border:1px solid #fff;*/
+    /*}*/
+    .hj-vertical-split-div{
+      height:150px;
+      border:0px solid red;
+      width:99.9%;
+      margin:0 auto;
+    }
+    .hj-vertical-split-label{
+      width: 100%;
+      height: 10px;
+      display:block;
+      cursor: n-resize;
+      background-color:#fff;
+    }

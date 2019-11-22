@@ -1,0 +1,215 @@
+.download-content{
+	display:block;
+	width:auto;
+	min-width:1100px;
+	padding:30px;
+}
+.download-content .d-title{
+	position:relative;
+	width:100%;
+	height:28px;
+	text-align:left;
+	color:rgb(67,132,219);
+	font-size:14px;		
+	padding-left:20px;
+	border-bottom:solid 1px #eee;
+}
+.download-content .d-title:after{
+	content:" ";
+	position:absolute;
+	top:28px;
+	left:25px;
+	width:40px;
+	height:2px;
+	background-color:rgb(67,132,219);
+}
+.download-content .d-desc1{
+	width:100%;
+	height:auto;
+	padding-left:25px;
+}
+
+.download-content .d-desc1 .dd-title{
+	width:100%;
+	padding:25px 0;
+	font-size:16px;
+	color:rgb(51,51,51);
+}
+.download-content .d-desc1 .dd-desc-content{
+	font-size:14px;
+	color:rgb(51,51,51);
+}
+.download-content .d-desc1 .dd-desc-content p{
+	padding:0;
+	padding-bottom:15px;
+	margin:0;
+	text-indent: 40px;
+	width: 916px;
+}
+
+.download-content .d-desc1 .dd-button{
+	width:100%;
+	padding:11px 0 20px 0;
+}
+.download-content .d-desc1 .dd-button .dd-text{
+	height:40px;
+	width: 35%;
+	line-height:40px;
+	border: solid 1px rgb(67,132,219);
+	text-decoration:none;
+	border-radius:5px;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+}
+.download-content .d-desc1 .dd-button a{
+	display: inline-block;
+	width:100px;
+	height:40px;
+	line-height:40px;
+	text-align:center;
+	border: solid 1px rgb(67,132,219);
+	color:rgb(67,132,219);
+	text-decoration:none;
+	border-radius:5px;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	margin-left: 10px;
+}
+.download-content .d-desc1 .dd-button a:hover{
+	display: inline-block;
+	width:100px;
+	height:40px;
+	line-height:40px;
+	text-align:center;
+	border: solid 1px rgb(67,132,219);
+	color:#fff;
+	text-decoration:none;
+	border-radius:5px;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	background-color:rgb(67,132,219);
+	margin-left: 10px;
+
+}
+.download-content .dd-leaft-openlayer {
+	width:100%;		
+	padding-top:20px;
+	border:solid 1px #eee;
+	border-left:none;
+	border-right:none;		
+}
+.download-content .dd-leaft-openlayer .select{
+	width:348px;
+}
+.download-content .dd-leaft-openlayer .s-tap{
+	display:inline-block;
+	width:170px;
+	height:40px;
+	border:solid 1px rgb(67,132,219);
+	font-size:16px;
+	line-height:40px;
+	margin:0;
+	padding:0;
+	cursor:pointer;
+	color:rgb(67,132,219);
+	text-align:center;
+}
+.download-content .dd-leaft-openlayer .s-tap.active{
+	background-color:rgb(67,132,219);
+	color:#fff;
+}
+.download-content .dd-leaft-openlayer .s-tap:first-child{
+	border-top-left-radius:5px;
+	border-bottom-left-radius:5px;
+	-webkit-border-top-left-radius:5px;
+	-webkit-border-bottom-left-radius:5px;
+	-moz-border-top-left-radius:5px;
+	-moz-border-bottom-left-radius:5px;
+}
+
+.download-content .dd-leaft-openlayer .s-tap:nth-child(2){
+	border-top-right-radius:5px;
+	border-bottom-right-radius:5px;
+	-webkit-border-top-right-radius:5px;
+	-webkit-border-bottom-right-radius:5px;
+	-moz-border-top-right-radius:5px;
+	-moz-border-bottom-right-radius:5px;
+	margin-left:-5px;
+}
+
+.download-content .dd-leaft-openlayer .s-content {
+	width:100%;
+	padding:30px 0;
+}
+.download-content .dd-leaft-openlayer .s-content .item{
+	display:inline-block;
+	width:300px;
+	height:280px;
+	border:solid 1px #eee;
+	border-radius:8px;
+	-webkit-border-radius:8px;
+	-moz-border-radius:8px;
+	margin-right:60px;
+}
+.download-content .dd-leaft-openlayer .s-content .item-title{
+	width:100%;
+	font-size:20px;
+	color:rgb(51,51,51);
+	text-align:center;
+	padding:20px 0 50px 0;
+}
+.download-content .dd-leaft-openlayer .s-content .item-icon{
+	width:100px;
+	height:100px;
+	margin:0 auto;
+}	
+.download-content .dd-leaft-openlayer .s-content .icon1{
+	background:url("../img/icon_code.png") no-repeat;
+}
+.download-content .dd-leaft-openlayer .s-content .icon2{
+	background:url("../img/icon_document.png") no-repeat;
+}
+.download-content .dd-leaft-openlayer .s-content .icon3{
+	background:url("../img/icon-develop.png") no-repeat;
+}
+.download-content .dd-leaft-openlayer .s-content .item-button{
+	width:140px;
+	height:40px;
+	line-height:40px;
+	border:solid 1px rgb(67,132,219);
+	color:rgb(67,132,219);
+	text-align:center;
+	border-radius:5px;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	margin:20px auto;
+}
+.download-content .dd-leaft-openlayer .s-content .item-button.active{
+	background-color:rgb(67,132,219);
+	color:#fff;
+}
+.download-content .attention{
+	width:100%;
+	padding-top:28px;
+}
+.download-content .attention .title{
+	font-size:16px;
+	color:rgb(51,51,51);
+}
+.download-content .attention .title i{
+	display:inline-block;
+	width:30px;
+	height:30px;
+	margin-right:10px;
+	background:url("../img/icon_attention.png");
+	vertical-align:middle;
+}
+.download-content .attention .content{
+	width:100%;
+	padding-top:25px;
+	font-size:14px;
+}
+.download-content .attention .content a{
+	text-decoration:none;
+	color:rgb(67,132,219);
+}
